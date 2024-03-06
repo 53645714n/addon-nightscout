@@ -58,13 +58,13 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Nightscout" \
+    io.hass.name="ajNightscout" \
     io.hass.description="Nightscout acts as a web-based CGM (Continuous Glucose Montinor) to allow multiple caregivers to remotely view a patients glucose data in realtime." \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Alan Janke <alan.janke@gmail.com>" \
-    org.opencontainers.image.title="Nightscout" \
+    org.opencontainers.image.title="ajNightscout" \
     org.opencontainers.image.description="Nightscout acts as a web-based CGM (Continuous Glucose Montinor) to allow multiple caregivers to remotely view a patients glucose data in realtime." \
     org.opencontainers.image.vendor="Alan Janke" \
     org.opencontainers.image.authors="Alan Janke <alan.janke@gmail.com>" \

@@ -1,5 +1,5 @@
 {
-  "name": "Nightscout",
+  "name": "ahNightscout",
   "version": "dev",
   "slug": "nightscout",
   "description": "Nightscout acts as a web-based CGM (Continuous Glucose Montinor) to allow multiple caregivers to remotely view a patients glucose data in realtime.",
@@ -9,7 +9,7 @@
   "startup": "services",
   "init": "false",
   "boot": "auto",
-  "image": "marciogranzotto/image-{arch}-addon-nightscout",
+  "image": "CanberraTinkerer/image-{arch}-addon-nightscout",
   "hassio_role": "default",
   "ports": {
     "5423/tcp": 5423
